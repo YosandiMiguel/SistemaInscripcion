@@ -1,0 +1,41 @@
+SOLO SE PUEDE TENER UN ELEMENTO HTML
+
+Index
+{ H1 - Datos Personales
+
+	Nombre
+	Provincia
+	Ciudad
+	Sector
+	Calle
+	Carrera
+
+   BTN- (lIMPIAR, REGISTRAR)}
+
+------------------------------------------
+
+listado de materias
+{ H1- Selecion de materia
+
+	Materias y sus horarios (Mañana, tarde y noche)
+	BTN- (ACEPTAR)
+
+
+
+	*Posibilidad de volver al paso anterior (Si vuelvo los datos insertados deben seguir ahi)
+}
+
+------------------------------------------
+
+Confirmacion
+{ H1- Confirmacion
+	
+	debe mostrar todos los datos insertados con anterioridad 
+	debe mostrar el horario seleccionado, con sus materias (en una tabla)
+	BTN- (FINALIZAR)
+
+
+	*Al hacer click en el boton finalizar debe aparecer un ¨Alert¨ que pida confimacion, con los botones de ACEPTAR Y CANCELAR
+	si se acepta de sebe limpiar la informacion del formulario.
+	*Posibilidad de volver al paso anterior y al anterior del anterior (Si vuelvo los datos insertados deben seguir ahi)
+}
