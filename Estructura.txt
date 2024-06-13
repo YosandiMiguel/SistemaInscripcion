@@ -8,7 +8,7 @@ Index
 	Ciudad
 	Sector
 	Calle
-	Carrera
+	Carrera {Inteligencia Artificial, mecatronica, Multimedia, Sonido, Software}
 
    BTN- (lIMPIAR, REGISTRAR)}
 

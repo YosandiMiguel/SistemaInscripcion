@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="navContainer">
-        <nav class="d-flex justify-content-center navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="nav d-flex justify-content-center navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">My Page</a>
                 <ul class="navUl navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
@@ -38,26 +38,40 @@
                             <label for="nameForm">Nombre</label>
                             <input type="text" class="form-control" id="nameForm" placeholder="Introduce tu nombre">
                         </div>
-                        <!-- ----------------------------------------------------------------------------------------- -->
+
                         <div class="form-group mb-3">
                             <label for="provinciaForm">Provincia</label>
                             <input type="text" class="form-control" id="provinciaForm" placeholder="Introduce la provincia">
                         </div>
+
                         <div class="form-group mb-3">
                             <label for="ciudadForm">Ciudad</label>
                             <input type="text" class="form-control" id="ciudadForm" placeholder="Introduce tu ciudad">
                         </div>
+
                         <div class="form-group mb-3">
                             <label for="sectorForm">Sector</label>
                             <input type="text" class="form-control" id="sectorForm" placeholder="Introduce tu sector">
                         </div>
-                        <div class="form-group mb-4">
+
+                        <div class="form-group mb-2">
                             <label for="calleForm">Calle</label>
                             <input type="text" class="form-control" id="calleForm" placeholder="Introduce tu Calle">
                         </div>
+                        <div class="form-group mb-4">
+                            <label for="careerSelector">Carrera</label>
+                            <select class="form-select" id="careerSelector">
+                                <option selected="choose">Seleccione una carrera</option>
+                                <option value="softwareSel">Software</option>
+                                <option value="sonidoSel">Sonido</option>
+                                <option value="multimediaSel">Multimedia</option>
+                                <option value="mecatronicaSel">Mecatronica</option>
+                                <option value="AiSel">Inteligencia Artificial</option>
+                            </select>
+                        </div>
                         
-                        <button type="submit" class="btn btn-danger">Limpiar</button>
-                        <button type="submit" class="btn btn-primary">Aceptar</button>
+                        <button type="submit" class="btn btnLimpiar">Limpiar</button>
+                        <button type="submit" class="btn btnAceptar">Aceptar</button>
                 </form>
             </div>
         </div>
@@ -65,7 +79,9 @@
 
     <footer class="footer mt-5">
         <div class="container">
-                <p class="text-center">© 2024 Mi Web. Todos los derechos reservados.</p>
+     
+                <p class="text-center footerText">© 2024 Sistema de inscripcion. Creado por Yosandi Miguel Reyes.</p>
+                <p class="text-center footerText"> Todos los derechos reservados.</p>
         </div>
     </footer>
 
